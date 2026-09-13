@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd cardio-frontend && npm install && npm run build",
+  "outputDirectory": "cardio-frontend/dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
