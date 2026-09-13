@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Dataset files
+cardio_train.csv
+*.csv
+*.tsv
+*.parquet
+
+# Anaconda project metadata
+anaconda_projects/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.sw?
